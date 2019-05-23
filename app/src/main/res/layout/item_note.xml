@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing"
+    android:minHeight="200dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fecha_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Texto" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFavorito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Favorito" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnArchivar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Archivar" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
